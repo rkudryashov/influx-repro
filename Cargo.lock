@@ -292,7 +292,7 @@ dependencies = [
 [[package]]
 name = "influxdb2_client"
 version = "0.1.0"
-source = "git+https://github.com/influxdata/influxdb_iox#abc6828689f962543deb9217e1257ed52be427e0"
+source = "git+https://github.com/influxdata/influxdb_iox?branch=cn/influxdb2-client-debugging-improvements#3bba5ce7161e47ff8c77139cfc2438fadf4ff7f3"
 dependencies = [
  "bytes",
  "futures",

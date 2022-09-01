@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+influxdb2_client = { git = "https://github.com/influxdata/influxdb_iox" }
+tokio = { version = "1.20.1", features = ["rt-multi-thread", "macros"] }
+lazy_static = "1.4.0"
+dotenv = "0.15.0"
